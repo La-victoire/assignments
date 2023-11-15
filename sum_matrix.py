@@ -10,5 +10,10 @@ data: list[list[int]] = [
 sum = 0
 
 # Your code goes here.
+for i in range(0 ,len(data)):
 
-print(f"The value of sum is {sum}")
+
+    for j in range(0 , len(data[i])):
+        sum+=data[i][j]
+
+    print(f"The value of sum is {sum}")
