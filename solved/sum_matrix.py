@@ -10,10 +10,8 @@ data: list[list[int]] = [
 sum = 0
 
 # Your code goes here.
-for i in range(0 ,len(data)):
+for i in range(0, len(data)):
+    for j in range(0, len(data[i])):
+        sum += data[i][j]
 
-
-    for j in range(0 , len(data[i])):
-        sum+=data[i][j]
-
-    print(f"The value of sum is {sum}")
+print(f"The value of sum is {sum}")
