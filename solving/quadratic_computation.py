@@ -6,8 +6,11 @@ def quadratic_calculator(a: float, b: float, c: float):
     x = 0
     y = 0
 
-    # Your code goes here
 
+    # Your code goes here
+    # This is my answer 
+    x=(-b+((b)**2-(4*a*c))**0.5)/2*a
+    y=(-b-((b)**2-(4*a*c))**0.5)/2*a
     return (x, y)
 
 
