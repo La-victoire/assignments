@@ -1,0 +1,158 @@
+.body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 80px;
+
+}
+
+.fun-img{
+  width:700px;
+  height: 300px;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin:40px 80px 40px 0px ;
+}
+
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-size: 15px;
+  color: #5d5f79;
+}
+@media screen and (max-width:500px) and (min-width:300px) {
+  .body{
+    padding: 10px;
+  }
+  .tabs{
+   grid-template-columns: 1fr;
+   margin-top: 100px;
+  }
+  .hm,
+  .nw,
+  .pplr,
+  .trnd,
+  .ctgr{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+  }
+  .ham{
+    position: absolute;
+    left: 365px;
+    margin-top: 8px;
+    height: 30px;
+    width: 30px;
+    
+  }
+  .nav{
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    background-color: hsl(36, 100%, 99%) ;
+    color: black;
+    padding: 20px;
+    transition: right 0.3s ease;
+  }
+  .tog:checked~ .nav , .ham{
+    right: 0;
+  }
+  .fun-img,.tog{
+    display: none;
+  }
+  .close-btn{
+    position: absolute;
+    right: 0px;
+    width: 25px;
+    padding: 10px;
+    cursor: pointer;
+
+  }
+  .mob-img{
+    width: 380px;
+    height:450px;
+  }
+  .bu1{
+    margin-left: -10px;
+  }
+  .sid-br{
+    position: relative;
+    left: -19px;
+    width: 340px;
+  }
+  .grid,.mini-grid,.flyer{
+    grid-template-columns: 400px;
+  }
+  .mini-grid-2{
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (min-width:501px) and (max-width: 700px) {
+  .grid,.flyer{
+    grid-template-columns: 500px;}
+  .mob-img,.tog{
+    display: none;
+  }
+  .tabs{
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+   }
+   .hm,
+   .nw,
+   .pplr,
+   .trnd,
+   .ctgr{
+     margin-top: 20px;
+     font-size: 17px;
+     font-weight: 400;
+     color: black;
+   }
+   .ham{
+     position: absolute;
+     right: 10px ;
+     margin-top: 8px;
+     height: 30px;
+     width: 30px;
+     
+   }
+   .nav{
+     position: fixed;
+     top: 0;
+     right: -300px;
+     width: 250px;
+     height: 100%;
+     background-color: hsl(36, 100%, 99%);
+     color: black;
+     padding: 20px;
+     transition: right 0.3s ease;
+   }
+   .tog:checked~ .nav , .ham{
+     right: 0;
+   }
+   
+   .close-btn{
+     position: absolute;
+     right: 0px;
+     width: 25px;
+     padding: 10px;
+     cursor: pointer;
+   }
+   .fun-img{
+    width: 600px;
+  }
+}
+
+@media screen and (min-width:701px) {
+
+  .close-btn,.tog,.mob-img,.ham{
+    display: none;
+  }
+}
