@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://assignments-cjz7l9zx9-victory-s-projects-b4adadd8.vercel.app/](https://your-solution-url.com)
-- Live Site URL: [https://assignments-cjz7l9zx9-victory-s-projects-b4adadd8.vercel.app/](https://your-live-site-url.com)
+- Solution URL: [https://assignments-cjz7l9zx9-victory-s-projects-b4adadd8.vercel.app/](https://assignments-cjz7l9zx9-victory-s-projects-b4adadd8.vercel.app/)
+- Live Site URL: [https://assignments-cjz7l9zx9-victory-s-projects-b4adadd8.vercel.app/]()
 
 ## My process
 
